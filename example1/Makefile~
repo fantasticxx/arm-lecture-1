@@ -1,7 +1,7 @@
 CC	= arm-linux-gnueabihf-gcc
 CFLAGS	= -O2 -ggdb -Wall
 LDFLAGS = -fno-stack-protector
-
+-mcpu=cortex-a15
 objects	= example1.o
 
 default: example1
