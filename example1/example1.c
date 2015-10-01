@@ -3,7 +3,7 @@ int div(int, int);
 int main()
 {
 	int a, b, c;
-	a=10;
+	a=24;
 	b=12;
 	c=div(a,b);
 	return c;
